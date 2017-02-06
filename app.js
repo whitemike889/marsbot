@@ -42,8 +42,7 @@ intentDialog.matches('Life', 'lifeDialog');
 bot.dialog('/greetingDialog', 
     function(session)
     {
-        session.send('Hi! I\'m a droid from Mars. Ask me questions you have about Mars!');
-        session.endDialog('If you manage to send an attachment to me, I\'ll send you a secret passcode that you can exchange for a prize.');
+        session.endDialog('Hi! I\'m a droid from Mars. Ask me questions you have about Mars!');
     }
 )
 
